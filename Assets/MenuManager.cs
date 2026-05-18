@@ -5,6 +5,6 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("OutdoorsScene");
+        SceneManager.LoadScene("Level1");
     }
 }
