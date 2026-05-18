@@ -15,7 +15,25 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void PlayGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+    }
 
+    public void ShowCredits()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Credits");
+    }
+
+    public void ShowHowToPlay()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("HowToPlay");
+    }
+
+    public void GoToMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScreen");
+    }
 
     public void RestartGame()
     {

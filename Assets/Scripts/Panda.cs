@@ -49,7 +49,7 @@ public class Panda : MonoBehaviour
 
     void handleClimb()
     {
-        if (canClimb)
+        if (GetComponentInParent<PlayerController>().CurrentBear == PlayerController.Bear.Panda && canClimb)
         {
             if (move.y != 0)
             {
