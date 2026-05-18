@@ -24,7 +24,7 @@ public class Switch : MonoBehaviour
         {
             Debug.Log("Switch activated");
             spriteRenderer.sprite = onSprite;
-            ladder.gameObject.transform.position = new Vector3(ladder.gameObject.transform.position.x, -1.8f, 0);
+            ladder.gameObject.transform.position = new Vector3(ladder.gameObject.transform.position.x, -1.5f, 0);
             isOn = true;
         }
     }
