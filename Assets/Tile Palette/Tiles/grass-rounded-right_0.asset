@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: grass-rounded-right_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -6810768573132419971, guid: 9ea5910b10f8e21948bbbdfa9aac5a85, type: 3}
+  m_Sprite: {fileID: -6810768573132419971, guid: 80c94df56fe698c04a9b1ae35b962512, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 78e96f2869ad2da4e8e9839cd3e14f55
+guid: b0d8534a9e351a196a08be733187b760
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4846896553144377880
+    second: win_0
+  - first:
+      213: 8936239711803083862
+    second: win_1
+  - first:
+      213: 4145771243988941060
+    second: win_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +48,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,9 +102,88 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: win_0
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 372
+        width: 461
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8126c313cb2a34340800000000000000
+      internalID: 4846896553144377880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win_1
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 446
+        width: 407
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c03c1fba6e30c70800000000000000
+      internalID: 8936239711803083862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win_2
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 471
+        width: 296
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4097dfd2bfcb88930800000000000000
+      internalID: 4145771243988941060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -109,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      win_0: 4846896553144377880
+      win_1: 8936239711803083862
+      win_2: 4145771243988941060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
